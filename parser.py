@@ -1,7 +1,7 @@
 # parser.py
 # Objective: Read sequences from FASTA file and store them into MySQL database
 
-import mysql.connector # can also use sqllite3
+import mysql.connector # can also use sqlite3
 from Bio import SeqIO
 
 # Step 1: Connect / Create database
